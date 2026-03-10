@@ -2,13 +2,91 @@
 <html>
 <head>
 <title>MSG KPI Dashboard</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f4f6f8;
+text-align:center;
+}
+
+h1{
+color:#1f7ab8;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:40px;
+}
+
+button{
+padding:20px;
+font-size:16px;
+border:none;
+border-radius:10px;
+background:#2d89ef;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#1b5fa7;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Production Dashboard</h1>
-<p>Output Today: 1200</p>
-<p>Downtime: 10 minutes</p>
+<h1>Target Condition by Apr 26 – KPI Dashboard</h1>
+
+<div class="container">
+
+<button onclick="location.href='role-training.html'">
+Role-based Training
+</button>
+
+<button onclick="location.href='risk-thinking.html'">
+Risk-based Thinking
+</button>
+
+<button onclick="location.href='lessons-learned.html'">
+Lessons Learned
+</button>
+
+<button onclick="location.href='training-effectiveness.html'">
+Training Effectiveness
+</button>
+
+<button onclick="location.href='corrective-action.html'">
+Corrective Action
+</button>
+
+<button onclick="location.href='standard-work.html'">
+Standard Work Compliance
+</button>
+
+<button onclick="location.href='customer-complaint.html'">
+Reduction of Customer Complaint
+</button>
+
+<button onclick="location.href='spike-case.html'">
+No Spike Case
+</button>
+
+<button onclick="location.href='next-process-reject.html'">
+Next Process Reject (POGG)
+</button>
+
+<button onclick="location.href='return-cargo.html'">
+Return Cargo Reduction
+</button>
+
+</div>
 
 </body>
 </html>
